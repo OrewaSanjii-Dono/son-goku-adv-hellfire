@@ -34,7 +34,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Mihawk_Flux_Bot")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #Collection of pics for Bot // #Optional but atleast one pic link should be replaced if you don't want predefined links
-PICS = (os.environ.get("PICS", "https://envs.sh/arr.jpg https://envs.sh/ar9.jpg https://envs.sh/arH.jpg https://envs.sh/arf.jpg")).split() #Required
+PICS = (os.environ.get("PICS", "https://envs.sh/azr.jpg")).split() #Required
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
